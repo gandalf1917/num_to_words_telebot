@@ -2,7 +2,7 @@ import telebot
 from function import number_to_words
 
 # Создание экземпляра бота с указанием токена
-bot = telebot.TeleBot("6324446132:AAH2b36LRIOYyrXlj5OH_vN2uGNme_SIBYs")
+bot = telebot.TeleBot("yor token")
 
 # Обработчик команды start
 @bot.message_handler(commands=['start'])
